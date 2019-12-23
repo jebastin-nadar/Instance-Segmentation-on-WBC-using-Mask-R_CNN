@@ -6,6 +6,8 @@ There are various techniques that are used in computer vision tasks such as clas
 
 ### What is Mask R-CNN ?
 
-The Mask R-CNN algorithm was introduced by He et al. in their 2017 paper, [Mask R-CNN](https://arxiv.org/abs/1703.06870).
+The Mask R-CNN algorithm was introduced by He et al. in their 2017 paper, [*Mask R-CNN*](https://arxiv.org/abs/1703.06870). It is an instance segmentation technique which locates each pixel of every object in the image instead of the bounding boxes. It has three main stages:
+1. **Backbone network** which is a standard CNN such as ResNet50 or ResNet101 is used to generate the feature maps.
+2. **Region proposal network (RPN)** to propose candidate object bounding boxes.
 
 
