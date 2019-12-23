@@ -6,7 +6,7 @@ import random
 import cv2
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("/home/jebastin/Desktop/Mask_RCNN")
+ROOT_DIR = os.path.abspath("/../../")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
@@ -40,14 +40,12 @@ class WBCConfig(Config):
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 60  
-
     VALIDATION_STEPS = 2  
 
     # Backbone network architecture
     # Supported values are: resnet50, resnet101
     BACKBONE = 'resnet50'
 
-    
     # Input image resizing
     # In 'square' resizing mode, images are scaled
     # up such that the small side is = IMAGE_MIN_DIM, but ensuring that the
@@ -123,6 +121,7 @@ class WBCDataset(utils.Dataset):
                     self.add_image('WBC', image_id=img, path=img_path, width=width, height=height,
                                    class_ids=np.array(class_ids))
     
+    
     # function to load the masks            
     def load_mask(self, image_id):
         info = self.image_info[image_id]
@@ -161,8 +160,8 @@ class WBCDataset(utils.Dataset):
 #  Training
 ############################################################
 
+
 def train(model):
-    """Train the model."""
     # Training dataset.
     dataset_train = WBCDataset()
     dataset_train.load_dataset('path/to/dataset/','train')
@@ -175,7 +174,6 @@ def train(model):
 
     print("TRAINING LAYERS...")
     model.train(dataset_train, dataset_val, learning_rate=config.LEARNING_RATE, epochs=75, layers='3+')
-
 
 
 def color_splash(image, mask):
@@ -202,9 +200,9 @@ def color_splash(image, mask):
 #  Command Line
 ############################################################
 
+
 if __name__ == '__main__':
     import argparse
-
     # Parse command line arguments
     parser = argparse.ArgumentParser(
         description='Train Mask R-CNN to detect custom class.')
