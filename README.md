@@ -16,7 +16,13 @@ The features are also fed into *Mask classifier*, which consists of two CNN’s,
 
 ### Data
 
-The images have been taken from the Leukocyte Images for Segmentation and Classification Database [(LISC)](http://users.cecs.anu.edu.au/~hrezatofighi/Data/Leukocyte%20Data.htm).
-
+The images have been taken from the Leukocyte Images for Segmentation and Classification Database [(LISC)](http://users.cecs.anu.edu.au/~hrezatofighi/Data/Leukocyte%20Data.htm). 
 ![Screenshot from 2019-12-25 13-04-24](https://user-images.githubusercontent.com/47391270/71437336-38450580-2717-11ea-9732-4e39cc5c0147.png)
+The images have to segmented into these 5 types of WBC's:
+1. Basophil 
+2. Eosinophil, 
+3. Neutrophil
+4. Lymphocyte
+5. Monocyte
+
 
