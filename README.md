@@ -50,6 +50,14 @@ The images have to segmented into these 5 types of WBC's:
     │   │   │   └── ...
     │   │   .
     │   │   .
-    └── └── . 
-    
+    └── └── .
+```
+4. Download the pre-trained COCO [weights](https://github.com/matterport/Mask_RCNN/releases)(mask_rcnn_coco.h5) and save them in the root directory of Mask R-CNN.
+5. Also save the `WBC.py` file in this repository into the Mask R-CNN folder.
+6. To start training, open terminal in the folder and write
+`python3 WBC.py train --dataset=WBC --weights=coco`
+
+### Evaluation of the model
+
+
 
