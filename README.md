@@ -83,7 +83,7 @@ Now some examples in which the model **failed** to correctly predict the WBC and
 
 ![Screenshot from 2019-12-22 15-10-00](https://user-images.githubusercontent.com/47391270/71447097-b83b9180-2750-11ea-9ea9-57921ad8e5ac.png)
 
-The model is able to locate the WBC's correctly but labels the incorrectly as *Monocyte* and *Basophil*. Both the WBC's are *Neutrophil*.
+The model is able to locate the WBC's correctly but labels them incorrectly as *Monocyte* and *Basophil*. Both the WBC's are *Neutrophil*.
 
 ![Screenshot from 2019-12-22 15-10-51](https://user-images.githubusercontent.com/47391270/71447102-bd98dc00-2750-11ea-8176-28b40764ad40.png)
 
@@ -92,7 +92,11 @@ In this case, the model is unable to detect the second *Neutrophil* in the image
 ![Screenshot from 2019-12-22 15-15-05](https://user-images.githubusercontent.com/47391270/71447104-bf629f80-2750-11ea-8c69-f29668b5c9db.png)
 
 This was an interesting case. As depicted both the models are unable to detect all the WBC's in the image. Training the model for more epochs would have possibly resulted in better predictions. 
-
 `(Training the model for 75 epochs took 27 hours on my CPU)`
 
-
+### References
+1. https://github.com/matterport/Mask_RCNN
+2. https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46
+3. https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn/
+4. https://towardsdatascience.com/computer-vision-instance-segmentation-with-mask-r-cnn-7983502fcad1
+5. https://towardsdatascience.com/instance-segmentation-using-mask-r-cnn-7f77bdd46abd
