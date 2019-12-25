@@ -28,26 +28,28 @@ The images have to segmented into these 5 types of WBC's:
 1. Download/fork Matterport's [Mask R-CNN](https://github.com/matterport/Mask_RCNN).
 2. Download the training images and divide them into train and validation set.
 3. In the root directory of Mask R-CNN creating a folder named WBC consisting of images and their corresponding masks. It's structure should be as follows:
-  WBC
-  ├──train(same for val)
-  │   ├──image
-  │   │   ├──Basophil
-  │   │   │   ├──Basophil_01.png
-  │   │   │   └── ...
-  │   │   ├──Eosinophil
-  │   │   │   ├──Eosinophil_01.png
-  │   │   │   └── ...
-  │   │   .
-  │   │   .
-  │   └── .   
-  │   ├──mask
-  │   │   ├──Basophil
-  │   │   │   ├──Basophil_01.png
-  │   │   │   └── ...
-  │   │   ├──Eosinophil
-  │   │   │   ├──Eosinophil_01.png
-  │   │   │   └── ...
-  │   │   .
-  │   │   .
-  └── └── . 
+```bash
+    WBC
+    ├──train(same for val)
+    │   ├──image
+    │   │   ├──Basophil
+    │   │   │   ├──Basophil_01.png
+    │   │   │   └── ...
+    │   │   ├──Eosinophil
+    │   │   │   ├──Eosinophil_01.png
+    │   │   │   └── ...
+    │   │   .
+    │   │   .
+    │   └── .   
+    │   ├──mask
+    │   │   ├──Basophil
+    │   │   │   ├──Basophil_01.png
+    │   │   │   └── ...
+    │   │   ├──Eosinophil
+    │   │   │   ├──Eosinophil_01.png
+    │   │   │   └── ...
+    │   │   .
+    │   │   .
+    └── └── . 
+    ```
 
