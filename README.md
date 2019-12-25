@@ -59,5 +59,13 @@ The images have to segmented into these 5 types of WBC's:
 
 ### Evaluation of the model
 
+The model was trained for 75 epochs with 60 steps per epoch. The following are some predictions of the model on images in the **validation** set:
+
+![Screenshot from 2019-12-22 14-38-11](https://user-images.githubusercontent.com/47391270/71446932-e029f580-274e-11ea-9492-69201170db54.png)
+
+![Screenshot from 2019-12-22 14-42-57](https://user-images.githubusercontent.com/47391270/71446952-1bc4bf80-274f-11ea-8fad-b556ec07ff31.png)
+
+![Screenshot from 2019-12-22 14-48-01](https://user-images.githubusercontent.com/47391270/71446953-2a12db80-274f-11ea-8528-aeb71a4f9e7a.png)
+
 
 
