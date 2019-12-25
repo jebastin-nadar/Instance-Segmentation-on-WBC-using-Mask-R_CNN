@@ -18,9 +18,36 @@ The images have been taken from the Leukocyte Images for Segmentation and Classi
 ![Screenshot from 2019-12-25 13-04-24](https://user-images.githubusercontent.com/47391270/71437336-38450580-2717-11ea-9732-4e39cc5c0147.png)
 The images have to segmented into these 5 types of WBC's:
 1. Basophil 
-2. Eosinophil, 
+2. Eosinophil
 3. Neutrophil
 4. Lymphocyte
 5. Monocyte
 
+### Training the model
+
+1. Download/fork Matterport's [Mask R-CNN](https://github.com/matterport/Mask_RCNN).
+2. Download the training images and divide them into train and validation set.
+3. In the root directory of Mask R-CNN creating a folder named WBC consisting of images and their corresponding masks. It's structure should be as follows:
+  WBC
+  ├──train(same for val)
+  │   ├──image
+  │   │   ├──Basophil
+  │   │   │   ├──Basophil_01.png
+  │   │   │   └── ...
+  │   │   ├──Eosinophil
+  │   │   │   ├──Eosinophil_01.png
+  │   │   │   └── ...
+  │   │   .
+  │   │   .
+  │   └── .   
+  │   ├──mask
+  │   │   ├──Basophil
+  │   │   │   ├──Basophil_01.png
+  │   │   │   └── ...
+  │   │   ├──Eosinophil
+  │   │   │   ├──Eosinophil_01.png
+  │   │   │   └── ...
+  │   │   .
+  │   │   .
+  └── └── . 
 
