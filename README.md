@@ -40,7 +40,7 @@ The images have to segmented into these 5 types of WBC's:
     │   │   │   └── ...
     │   │   .
     │   │   .
-    │   └── .   
+    │   │   .   
     │   ├──mask
     │   │   ├──Basophil
     │   │   │   ├──Basophil_01.png
@@ -51,5 +51,5 @@ The images have to segmented into these 5 types of WBC's:
     │   │   .
     │   │   .
     └── └── . 
-    ```
+    
 
