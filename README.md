@@ -11,9 +11,7 @@ The Mask R-CNN algorithm was introduced by He et al. in their 2017 paper, [*Mask
 2. **Region proposal network (RPN)** to propose candidate object bounding boxes.It uses a CNN to generate the multiple Region of Interest(RoI) using a lightweight binary classifier. 
 3. **RoI Align network** outputs multiple bounding boxes and warps them into a fixed dimension. Warped features are then fed into *fully connected layers* to make classification (using Softmax) and boundary box prediction (using regression). 
 The features are also fed into *Mask classifier*, which consists of two CNN’s, to output a binary mask for each RoI. Mask Classifier generates masks for every class without competition among classes.
-
 ![mrcnn](https://user-images.githubusercontent.com/47391270/71436870-2febcb00-2715-11ea-937e-6bf3bf525517.png)
-
 ### Data
 
 The images have been taken from the Leukocyte Images for Segmentation and Classification Database [(LISC)](http://users.cecs.anu.edu.au/~hrezatofighi/Data/Leukocyte%20Data.htm). 
