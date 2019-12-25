@@ -67,5 +67,17 @@ The model was trained for 75 epochs with 60 steps per epoch. The following are s
 
 ![Screenshot from 2019-12-22 14-48-01](https://user-images.githubusercontent.com/47391270/71446953-2a12db80-274f-11ea-8528-aeb71a4f9e7a.png)
 
+The LISC data has some images without any ground truth mask which was used as the test set. Here are the model's predictions on the **test** set:
+
+![Screenshot from 2019-12-22 14-53-52](https://user-images.githubusercontent.com/47391270/71447014-d228a480-274f-11ea-954f-b5b3e6278a62.png)
+
+![Screenshot from 2019-12-22 15-00-01](https://user-images.githubusercontent.com/47391270/71447023-e5d40b00-274f-11ea-839f-330d3e3cd011.png)
+
+![Screenshot from 2019-12-22 15-01-22](https://user-images.githubusercontent.com/47391270/71447034-fa180800-274f-11ea-919a-4b702e83f006.png)
+
+![Screenshot from 2019-12-22 15-02-52](https://user-images.githubusercontent.com/47391270/71447046-1451e600-2750-11ea-863e-f30040225fa7.png)
+
+![Screenshot from 2019-12-22 15-05-38](https://user-images.githubusercontent.com/47391270/71447047-174cd680-2750-11ea-8042-0cb90ea6ba42.png)
+
 
 
